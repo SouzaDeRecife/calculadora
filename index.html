@@ -11,11 +11,16 @@
         }
         .fundo{
             background-image: linear-gradient(45deg,  black, white);
-            height: 85vh;
+            height: 100vh;
             color: white;
             font-family: 'Times New Roman', Times, serif;
             text-align : center;
-            
+
+            .audio {
+    background-color: black;
+    position: absolute;
+    left: 2.8%;
+}
             }
 
             .calculadora{
@@ -57,7 +62,7 @@
 .audio {
     background-color: black;
     position: absolute;
-    left: 2.75%;
+    left: 2.8%;
 }
     </style>
 </head>
@@ -98,7 +103,10 @@
         </tr>
     </table>
         </div>
+        <div class="audio">
+        <audio src="badtings.mp3" controls muted loop></audio>
         </div>
+    </div>
         <script>
         function insert(num)
         {
