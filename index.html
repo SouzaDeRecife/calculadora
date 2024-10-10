@@ -10,10 +10,9 @@
             padding: 0;
         }
         .audio {
-    height: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+        top: 80%;
+        position: absolute;
+        left: 28.5%;
 
     
         }
@@ -62,20 +61,40 @@
         padding: 5px;
 }
 
-        
+.relogio {
+    margin: 10px;
+    margin-left: 300px;
+}
     </style>
 </head>
 <body>
+   
+    
+    
+    
+    
+    
+   
+    
     <div class="fundo">
     <h1>Souza.</h1>
-    </div>
-    <div class="audio">
-        <audio src="badtings.mp3" controls muted loop></audio>
-    </div>
     <div class="calculadora">
     <h1>calculadora</h1>
     <p id="Resultado"></p>
-    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+    
     <table>
         <tr>
             <td><button class="botao" onclick="clean()">C</button></td>
@@ -106,7 +125,17 @@
             <td><button class="botao" onclick="insert('.')">.</button></td>
         </tr>
     </table>
-        
+    </div>
+    </div>
+    <div class="audio">
+        <audio src="badtings.mp3" controls muted loop></audio>
+    
+    </div>
+
+    <div class= relogio>
+    </h1><a href="https://souzaderecife.github.io/somscript">Relógio Digital<h1></a>
+    </div>
+
         <script>
         function insert(num)
         {
@@ -135,9 +164,8 @@
         
         
        
-        <div class= relogio>
-        </h1><a href="https://souzaderecife.github.io/somscript">Relógio Digital<h1></a>
-        </div>
+        
     
 </body>
 </html>
+
