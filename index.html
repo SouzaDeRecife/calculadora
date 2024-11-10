@@ -5,23 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>calculadora</title>
     <style>
-        *{
+*{
             margin: 0;
             padding: 0;
         }
 
-        a:link {
+a:link {
             color: black;
         }
-        a:hover {
+a:hover {
             color: yellow;
         }
-        .audio {
+.audio {
        display: flex;
-            align-items= center;
+       justify-content: center;
+        align-items= center;
     
         }
-        .fundo{
+.fundo{
             background-image: linear-gradient(45deg,  black, white);
             height: 200vh;
             color: white;
@@ -30,7 +31,7 @@
 
             }
 
-            .calculadora{
+.calculadora{
                 position:absolute;
                 background-image: url("images-_russa2_.png");
                 Background-repeat: no-repeat;
@@ -42,7 +43,7 @@
                 border-radius: 15px;
                 padding: 15px;
             }
-    .botao {
+.botao {
         width: 50px;
         height: 50px;
         font size: 30px;
@@ -52,10 +53,10 @@
         border:none;
         color:#fff;
     }
-    .botao:hover{
+.botao:hover{
         background-color:black
     }
-    #Resultado{
+#Resultado{
         background-color: white;
         widht: 206px;
         height: 30px;
@@ -72,12 +73,15 @@
     margin: 10px;
     margin-top: 450px;
 }
-        .ladoalado {
+.ladoalado {
             bachground: gray;
   display: flex;
     justify-content: space-between;
     margin: 10px;
             }
+.relogio {
+    
+}
     </style>
 </head>
 <body>
@@ -119,24 +123,28 @@
             <td><button class="botao" onclick="insert('.')">.</button></td>
         </tr>
     </table>
+    </div>
     
-        <div class= downloads>
+    <div class= downloads>
     <h3><a href="app-debug.apk" download>Calculadora</a></h3>
     <h3><a href="app-debug.apk" download>Jokempo</a></h3>
-        </div>
+    </div>
+    
     <div class=ladoalado>
         <img src="Recorder_18102024_200756.jpg" width= "150px">
         <img src="jokenpo-6410cd40d6c18-large.jpg" width= "150px">
     </div>
-        <div class="audio">
+    
+    <div class="audio">
         <audio src="badtings.mp3" controls muted loop></audio>
     </div>
+    
     <div class= relogio>
     </h1><a href="https://souzaderecife.github.io/video/">Relógio Digital<h1></a>
     </div>
         
     </div>
-    </div>
+    
     
 
     
